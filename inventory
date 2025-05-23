@@ -1,0 +1,13 @@
+[docker_hosts]
+192.168.56.10 ansible_connection=local 
+192.168.56.11
+192.168.56.12
+
+[docker_hosts:vars]
+ansible_user=ubuntu
+ansible_become_pass=ubuntu
+#ansible_ssh_pass=osboxes.org
+#ansible_become=true
+#ansible_become_method=sudo
+
+
